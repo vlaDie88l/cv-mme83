@@ -41,7 +41,7 @@ h2 {
 }
 
 .cv .cv_left {
-    width: 280px;
+    width: 35%;
     background: #81dbff;
 }
 
@@ -169,7 +169,7 @@ a:visited {
 }
 
 .cv .cv_right {
-    width: 520px;
+    width: 65%;
     background: #fff;
     padding: 25px;
 }
@@ -313,4 +313,30 @@ a:visited {
 .cv footer a {
     font-style: normal;
     text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+    .cv {
+        width: 95%;
+        margin: 10px auto;
+        flex-direction: column;
+    }
+
+    .cv .cv_left,
+    .cv .cv_right {
+        width: 100%;
+    }
+
+    .cv .cv_left .cv_profile img {
+        width: auto;
+    }
+
+    .cv .cv_left .cv_hobby ul li {
+        width: 54px;
+        height: 54px;
+    }
+
+    .cv .cv_left .cv_profile {
+        background: linear-gradient(to right, white, #b1eaff);
+    }
 }
