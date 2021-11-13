@@ -1,5 +1,5 @@
 # CV-Resume-mme83
 used HTML, CSS and JS
 
-## Open CV - page in github
-[link to CV-page](https://)
+## CV-mme83 - github pages
+[link to CV-mme83](https://mme83.github.io/cv-mme83/)
