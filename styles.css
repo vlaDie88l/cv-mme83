@@ -54,9 +54,8 @@ h2 {
 .cv .cv_left .cv_profile img {
     width: 100%;
     height: 100%;
-    /*border-left: 50px solid #feefef;*/
     padding-left: 50px;
-    background: linear-gradient(to right, white, purple);;
+    background: linear-gradient(to right, white, purple);
 }
 
 .cv .cv_left .cv_content {
@@ -254,6 +253,10 @@ a:visited {
 
 .visible {
     display: block;
+    background: #fefefe;
+    border-radius: 1%;
+    background: linear-gradient(to bottom, white, #e3eeff);
+    padding: 4px;
 }
 
 .cv .cv_right .btn {
@@ -301,4 +304,11 @@ a:visited {
     font-size: 12px;
     text-align: right;
     font-style: italic;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cv footer a {
+    font-style: normal;
+    text-decoration: none;
 }
