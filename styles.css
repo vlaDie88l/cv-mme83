@@ -212,7 +212,6 @@ a:visited {
 
 .cv .cv_right ul.resp {
     font-size: 13px;
-    display: none;
 }
 
 .cv .cv_right ul li:last-child .info {
@@ -244,13 +243,33 @@ a:visited {
 }
 */
 
+/*
 .cv .cv_right .cv_work ul li:last-child:before {
+    display: none;
+}*/
+
+.resp {
     display: none;
 }
 
 .visible {
     display: block;
 }
+
+.cv .cv_right .btn {
+    width: 180px;
+    height: 20px;
+    margin: 5px;
+    border: 2px solid #44c2f0;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.cv .cv_right .btn:hover {
+    background: #44c2f0;
+}
+
+
 
 /*---hobby---*/
 .cv .cv_left .cv_hobby ul {
@@ -274,6 +293,12 @@ a:visited {
 
 .cv .cv_left .cv_hobby ul li:before {
     content: "";
-   /* position: absolute;
-    top: 140px;*/
+    position: absolute;
+}
+
+.cv footer {
+    color:#0bb5f4;
+    font-size: 12px;
+    text-align: right;
+    font-style: italic;
 }
