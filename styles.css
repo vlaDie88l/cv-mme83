@@ -272,7 +272,9 @@ a:visited {
     background: #44c2f0;
 }
 
-
+.cv .cv_right .cv_education .resp {
+    display: block;
+}
 
 /*---hobby---*/
 .cv .cv_left .cv_hobby ul {
