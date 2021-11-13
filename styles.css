@@ -102,11 +102,12 @@ h2 {
     color: #0bb5f4;
     border-radius: 50%;
     margin-right: 15px;
-    font-size: 16px;
+    font-size: 20px;
     position: relative;
 }
 
-.cv .icon i {
+.cv .icon i,
+.cv .cv_left .cv_hobby ul li i {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -124,6 +125,10 @@ h2 {
     justify-content: space-between;
     align-items: center;
 }
+
+a:visited {
+    text-decoration: none;
+  }
 
 .cv .cv_left .cv_skills ul li .skill_name {
     width: 25%;
@@ -147,6 +152,16 @@ h2 {
     left: 0;
     height: 100%;
     background: #fff;
+}
+
+.cv .cv_left .cv_social a {
+    text-decoration: none;
+    color: #286c83;
+}
+
+.cv .cv_left .cv_social a:hover {
+    text-decoration: underline;
+    color: #009fd9;
 }
 
 .cv .cv_left .cv_social .semi_bold {
@@ -229,6 +244,36 @@ h2 {
 }
 */
 
+.cv .cv_right .cv_work ul li:last-child:before {
+    display: none;
+}
+
 .visible {
     display: block;
+}
+
+/*---hobby---*/
+.cv .cv_left .cv_hobby ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cv .cv_left .cv_hobby ul li {
+    width: 20%;
+    height: 45px;
+    border: 2px solid #44c2f0;
+    border-radius: 50%;
+    position: relative;
+    color: #0bb5f4;
+    background: #fff;
+}
+
+.cv .cv_left .cv_hobby ul li i {
+    font-size: 28px;
+}
+
+.cv .cv_left .cv_hobby ul li:before {
+    content: "";
+   /* position: absolute;
+    top: 140px;*/
 }
